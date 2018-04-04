@@ -6,15 +6,14 @@ module.exports = {
     '~/assets/css/agency.min.css',
   ],
   plugins: [
-    { src: '~/assets/js/jquery.min.js', ssr: false },
-    { src: '~/assets/js/bootstrap.bundle.min.js', ssr: false },
-    { src: '~/assets/js/jquery.easing.min.js', ssr: false },
-    { src: '~/assets/js/agency.min.js', ssr: false },
+    // { src: '~/assets/js/jquery.min.js', ssr: false },
   ],
   /*
   ** Build configuration
   */
-  build: {},
+  build: {
+    vendor: ['jquery']
+  },
   /*
   ** Headers
   ** Common headers are already provided by @nuxtjs/pwa preset

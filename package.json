@@ -5,8 +5,9 @@
   "author": "Anand Patel <anandpatel3@hotmail.com>",
   "private": true,
   "dependencies": {
-    "nuxt": "latest",
-    "@nuxtjs/pwa": "latest"
+    "@nuxtjs/pwa": "latest",
+    "jquery": "^3.3.1",
+    "nuxt": "latest"
   },
   "scripts": {
     "dev": "nuxt",
